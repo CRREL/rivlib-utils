@@ -7,7 +7,7 @@
 
 class Inclination : public scanlib::pointcloud {
    public:
-    Inclination() : scanlib::pointcloud(false) {}
+    Inclination() : scanlib::pointcloud(true) {}
 
    protected:
     void on_hk_incl(const scanlib::hk_incl<iterator_type>& arg) {
